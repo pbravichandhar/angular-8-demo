@@ -1,1 +1,6 @@
 <p>ravi-home works!</p>
+<app-child [childMessage]="parentMessage" (messageEvent)="receiveMessage($event)"></app-child>
+
+
+<br>
+{{messageFromChild}}
